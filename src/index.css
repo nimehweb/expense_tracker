@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+@layer utilities {
+  /* Chrome, Safari, Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Firefox */
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+
+  /* IE and Edge */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+  }
+}
